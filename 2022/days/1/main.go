@@ -10,7 +10,7 @@ import (
 )
 
 func Day() {
-	file, err := os.Open("./day/1/input.txt")
+	file, err := os.Open("./days/1/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
